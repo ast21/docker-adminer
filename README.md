@@ -15,4 +15,6 @@ vim .env
 docker-compose up -d
 ```
 
+перейти по ссылке `adminer.localhost/`
+
 и на этом все.
