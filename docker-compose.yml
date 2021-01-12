@@ -13,6 +13,8 @@ services:
 
   adminer:
     image: adminer
+    volumes:
+      - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
     networks:
       - backend
       - databases
